@@ -920,7 +920,7 @@ if page == 'PHs Overview':
     #01
     @st.cache_data
     def load_store_data_01():
-        return pd.read_excel('allerx_store_jan.xlsx', index_col = 0)
+        return pd.read_excel('allerx_store_Jan.xlsx', index_col = 0)
     df_store_01 = load_store_data_01()
     
     def collected_color(val):
