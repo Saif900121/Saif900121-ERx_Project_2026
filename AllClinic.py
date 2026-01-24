@@ -651,7 +651,7 @@ if page == 'Region Overview':
     #01
     @st.cache_data
     def load_region_data_01():
-        return pd.read_excel('allerx_region_jan.xlsx', index_col = 0)
+        return pd.read_excel('allerx_region_Jan.xlsx', index_col = 0)
     df_region_01 = load_region_data_01()
     
     def collected_color(val):
